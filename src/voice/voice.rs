@@ -4,7 +4,7 @@ use serenity::{async_trait, prelude::{Context, EventHandler}};
 pub struct Handler;
 
 const GUILD_ID: GuildId = poise::serenity_prelude::GuildId(718661117483810816);
-const TARGET_ID: UserId = poise::serenity_prelude::UserId(445421191302217739);
+const TARGET_ID: UserId = poise::serenity_prelude::UserId(398298273699594240);
 
 #[async_trait]
 impl EventHandler for Handler {
