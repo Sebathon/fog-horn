@@ -5,6 +5,9 @@ pub struct Handler;
 
 const GUILD_ID: GuildId = poise::serenity_prelude::GuildId(718661117483810816);
 const TARGET_ID: UserId = poise::serenity_prelude::UserId(398298273699594240);
+const ADDITIONAL_IDS: [UserId; 1] = [
+    UserId(445421191302217739) ;
+];
 
 #[async_trait]
 impl EventHandler for Handler {
