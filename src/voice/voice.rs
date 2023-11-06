@@ -32,6 +32,8 @@ impl EventHandler for Handler {
 
         track.0.set_volume(0.2);
 
+        lock.stop();
+
         lock.play(track.0);
 
         println!("Voice state updated FOG HORN ACTIVATED!!!!");
